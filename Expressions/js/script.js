@@ -1,6 +1,6 @@
-//Expressions Modulo Operator
+//Expressions Using Arrays in Expressions
 
-var remainder = 32 % 10;
-console.log(remainder); 
+var orangeBins = [244, 567, 883];
+var total= orangeBins[0] + orangeBins [1] + orangeBins [2];
+console.log(total)
 
-// % defines the remainder of division
