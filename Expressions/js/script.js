@@ -1,8 +1,10 @@
-//Expressions Concatenating Strings
+//Expressions Casting
 
-var firstName = "Josh";
-var lastName = "Myers";
+var areaCode = 413
+var firstPart = 561;
+var secondPart = 6185; 
 
-var fullName = firstName + " " + lastName; 
+var phoneNo = String(areaCode) + String(firstPart) + String(secondPart);
+console.log(phoneNo)
 
 
