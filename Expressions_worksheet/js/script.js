@@ -4,9 +4,9 @@
 //Dog Years
 
 var sparkyAge = 5; // Given variable
-var dogYears = sparkyAge * 7; 
+var dogYears = sparkyAge*7; //result variable
 
-console.log("Sparky is" + " " + sparkyAge + " " + "human years old, which is" + " " + dogYears + + " " + + "in dog years.")
+console.log("Sparky is" + " " + sparkyAge + " " + "human years old, which is" + " " + dogYears  + " " +  "in dog years.")
 
 
 
