@@ -15,7 +15,7 @@ var slicesPerPizza = 10; //given variable
 var people = 25;  //given variable 
 var pizzasOrdered = 5; //given variable
 
-var totalSlices = pizzasOrders * slicesPerPizza; //determines total slices 
+var totalSlices = pizzasOrdered * slicesPerPizza; //determines total slices 
 var slicesPerPerson = totalSlices / people;  
 
 console.log("Each person ate" + " " + slicesPerPerson + " " + " slices of pizza at the party")
