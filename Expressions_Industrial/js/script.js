@@ -11,6 +11,8 @@ var hoursBilled = prompt("Please enter the number of hours you billed for this p
 var payment = prompt("Please enter how much the customer was charged for this project:"); 
 var expense = prompt ("Please enter the cost of any expenses on this project:");  
 alert("You worked" + " " + hoursWorked + " " + "and billed for" + " " + hoursBilled + " " + "and made $" + payment + " " + "on this project." );
+var hourly = payment / hoursWorked;
+var excessHours = hoursWorked - hoursBilled; 
+var hourly2 = payment / hoursBilled
+alert ("This means you worked" + " " + excessHours + " " + "hours in excess of what you billed for on your invoice, making $" + hourly + " " + "per hour on this project, after expenses, rather than the potential $" + hourly2 + " " + "that was billed for.")   
 
-
-console.log(hoursWorked)
