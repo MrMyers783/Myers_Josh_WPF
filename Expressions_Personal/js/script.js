@@ -8,7 +8,7 @@ var expenses = [prompt("Please enter your month rent/mortgage:"), prompt("Please
 
 var income = prompt("Please enter your total monthly income:");  
 
-var totalExp = expenses[0] + expenses[1] + expenses[2] + expenses[3] + expenses[4] + expenses[5];
+var totalExp = Number(expenses[0]) + Number(expenses[1]) + Number(expenses[2]) + Number(expenses[3]) + Number(expenses[4]) +  Number(expenses[5]);
 
 var remaining = income - totalExp; 
 
