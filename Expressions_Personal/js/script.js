@@ -2,7 +2,7 @@
 // October 10, 2013
 // Expressions 
 
-//Calculating Monthly Expenses
+//Calculating My Monthly Expenses to help me keep track and stay in the black. 
 
 var expenses = [prompt("Please enter your month rent/mortgage:"), prompt("Please enter the cost of your monthly electric bill:"), prompt("Please enter the cost of your monthly gas/oil bill:"), prompt("Please enter the cost of your monthly cable/internet bill:"), prompt("Please enter the cost of your monthly car payments and/or car insurance bill:"), prompt("Please enter the cost of any miscellaneous expenses:") ]
 
