@@ -30,6 +30,6 @@ console.log("Sparky got" + " " + sparkySlices + " " + "slices of pizza.")
 var bills = [56, 24, 77, 53, 27]; //given variable for five grocery bills
 
 var total = bills[0] + bills[1] + bills[2] + bills[3] + bills[4]; //provides total of grocery bills
-var average = bils/5;                                        //denotes average grocery bill      
+var average = total / 5;                                          
 
 console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.")
