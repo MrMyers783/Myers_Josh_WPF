@@ -25,9 +25,11 @@ var sparkySlices = totalSlices % people; //determines remainder of pizza
 console.log("Sparky got" + " " + sparkySlices + " " + "slices of pizza.")
 
  
+//average shopping bill 
 
+var bills = [56, 24, 77, 53, 27]; //given variable for five grocery bills
 
+var total = bills[0] + bills[1] + bills[2] + bills[3] + bills[4]; //provides total of grocery bills
+var average = bils/5;                                        //denotes average grocery bill      
 
-
-
-
+console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.")
